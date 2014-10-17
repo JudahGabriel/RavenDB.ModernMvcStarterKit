@@ -1,23 +1,23 @@
 # RavenDB Modern MVC Starter Kit
 
-Need a starting point for an ASP.NET MVC project using Raven as the backing store? Look no further.
+An MVC sample project that uses RavenDB as the backend, supports user registration and confirmation via email (SendGrid), and optionally supports Two-Factor Authentication via email (SendGrid) or SMS (Twilio).
 
 This project provides:
 
  - <strong>A RavenDB-backed identity provider</strong>, updated to work with the latest MS Identity Framework (2.1 at the time of this writing).
  - <strong>A registration confirmation system</strong>: when a user registers, he is required to confirm his registration via email. The email is sent via your developer SendGrid account. Upon registering, the user is presented with the following screen:
 <img src="http://i.imgur.com/67raMqS.png" />
-   The user will receive an email with a confirmation link. Following the link, he'll be taken to this page:
+   <br />The user will receive an email with a confirmation link. Following the link, he'll be taken to this page:
 <img src="http://i.imgur.com/FNbzWdE.png" />
  - <strong>Optional two-factor authentication</strong>: Users can optionally go to their profile page and add a phone number and enable Two-Factor Authentication:
 <img src="http://i.imgur.com/8pfdmG6.png" />
-   When the user enters his phone number, we send an SMS verification code via your developer Twilio account:
+   <br />When the user enters his phone number, we send an SMS verification code via your developer Twilio account:
 <img src="http://i.imgur.com/XKJN82m.png" />
-   With Two-Factor Authentication enabled, when the user goes to sign-in next time, he will first login as usual, and then be prompted to enter the 2nd form of identification, either email or SMS:
+   <br />With Two-Factor Authentication enabled, when the user goes to sign-in next time, he will first login as usual, and then be prompted to enter the 2nd form of identification, either email or SMS:
 <img src="http://i.imgur.com/Ik8s6Yc.png" />
-  The user will receive a verfication code via SMS or email and be redirected to the verification page:
+  <br />The user will receive a verfication code via SMS or email and be redirected to the verification page:
 <img src="http://i.imgur.com/ym8bFrW.png" />
-  Upon entering the verification code, they'll be able to sign in.
+  <br />Upon entering the verification code, they'll be able to sign in.
 
 #To run this sample:
 

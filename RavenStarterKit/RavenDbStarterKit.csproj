@@ -189,9 +189,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="..\README.md">
+      <Link>README.md</Link>
+    </Content>
     <None Include="Properties\PublishProfiles\MvcP.pubxml" />
     <None Include="Properties\PublishProfiles\MvcPWy.pubxml" />
-    <Content Include="README.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
