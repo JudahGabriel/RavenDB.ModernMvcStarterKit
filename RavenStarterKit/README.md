@@ -1,6 +1,6 @@
 # RavenDB Modern MVC Starter Kit
 
-Need a starting point for an ASP.NET MVC project using Raven as the backing store? Look no further.
+An MVC sample project that uses RavenDB as the backend, supports user registration and confirmation via email (SendGrid), and optionally supports Two-Factor Authentication via email (SendGrid) or SMS (Twilio).
 
 This project provides:
 
